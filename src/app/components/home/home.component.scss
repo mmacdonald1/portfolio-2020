@@ -1,0 +1,107 @@
+.title-text-container {
+  position: absolute;
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  transform: translate(-50%, -50%);
+  width: 800px;
+  font-weight: 600;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  border: 5px solid black;
+  padding: 0.2em;
+  background-color: rgb(240, 241, 242, 0.8);
+}
+
+.title-text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.subtext {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.5em;
+}
+
+@media screen and (max-width: 1300px) {
+  .title-text-container {
+    font-size: 2em;
+  }
+  .title-text {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2em;
+  }
+  .subtext {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 990px) {
+  .title-text-container {
+    position: absolute;
+    top: 50%; /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2em;
+    width: 600px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    border: 5px solid black;
+    padding: 0.2em;
+    background-color: rgb(240, 241, 242, 0.8);
+  }
+  .subtext {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 640px) {
+  .title-text-container {
+    position: absolute;
+    top: 50%; /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 60px;
+    margin: auto;
+    width: 80%;
+    overflow-wrap: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    border: 5px solid black;
+    padding: 0.2em;
+    background-color: rgb(240, 241, 242, 0.8);
+  }
+  .title-text {
+    font-size: 60px;
+    overflow-wrap: normal;
+  }
+  .subtext {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title-text {
+    font-size: 0.75em;
+    overflow-wrap: normal;
+  }
+  .subtext {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 0.5em;
+  }
+}

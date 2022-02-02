@@ -1,0 +1,60 @@
+.skills {
+  margin: 0px 15% 0px 15%;
+  padding: 70px 0px 100px 0px;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #333;
+}
+
+.title {
+  padding-bottom: 50px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.list-col {
+  text-align: center;
+}
+.skill-cell {
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+}
+@media screen and (max-width: 1300px) {
+  .skill-cell {
+    padding: 10px;
+    height: 200px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 990px) {
+  .skill-cell {
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .skill-cell {
+    padding: 10px;
+    height: 220px;
+    text-align: center;
+  }
+}

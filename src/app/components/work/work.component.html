@@ -1,0 +1,216 @@
+<div class="experience">
+  <div class="row work-row">
+    <div class="col-md-4">
+      <img class="work-pic" src="assets/terrayn.png" />
+    </div>
+    <div class="col-md-8 description-col">
+      <h4>Founding Software Engineer</h4>
+      <h5>Terrayn Dispensary Marketing</h5>
+      <p class="work-dates">Aug 2020 - Present · 1 yr 7 mos</p>
+      <p class="work-place">Denver, Colorado, United States</p>
+      <ul class="work-description">
+        <li>
+          Collaborating with founders to bring ideas into reality, from
+          conducting market research to writing a business plan, designing
+          application architecture, and managing a development team
+        </li>
+        <li>
+          Continuing ownership by defining product and engineering roadmaps,
+          networking and interviewing clients for beta, and teaching designers,
+          engineers, and contacts full-stack development skills
+        </li>
+        <li>
+          Leading frontend development and contributing to backend development
+          of an application with a React, Mobx, Nest.js, Postgres, and Flask
+          stack
+        </li>
+      </ul>
+      <a
+        class="button work-button"
+        target="_blank"
+        href="https://www.terrayn.com/products/dispensary-intelligence-app"
+      >
+        See Terrayn Dispensary Intelligence
+      </a>
+    </div>
+  </div>
+  <div class="row work-row">
+    <div class="col-md-8 conseqta-col">
+      <h4>Software Engineer</h4>
+      <h5>Conseqta Technology</h5>
+      <p class="work-dates">Sep 2019 - Aug 2020 · 1 yr</p>
+      <p class="work-place">Rosslyn, VA</p>
+      <ul class="work-description">
+        <li>
+          Completing development of 3 applications by upgrading the framework,
+          adding OIDC role-based authentication, creating custom D3.js graphics,
+          designing WebSocket infrastructure, and modifying existing libraries
+          to add desired features
+        </li>
+        <li>
+          Contributing to the development and maintenance of a financial
+          application, including creating two specialized document search
+          modules and a major refactor of the contract tracking module
+        </li>
+        <li>
+          Leading and mentoring development team in reaching higher code
+          quality, developing documentation, and increasing subject knowledge
+          which accelerated our teams’ ability to meet client expectations
+        </li>
+      </ul>
+      <a
+        class="button work-button"
+        target="_blank"
+        href="https://www.conseqta.com/forme.html"
+      >
+        See Forme
+      </a>
+      <a
+        class="button work-button"
+        target="_blank"
+        href="https://www.conseqta.com/konverge.html"
+      >
+        See Konverge
+      </a>
+    </div>
+    <div class="col-md-4">
+      <img class="work-pic" src="assets/conseqta.png" />
+    </div>
+  </div>
+  <div class="row work-row">
+    <div class="col-md-4">
+      <img class="work-pic" src="assets/synergy.png" />
+    </div>
+    <div class="col-md-8 description-col">
+      <h4>Web Application Developer</h4>
+      <h5>Synergy Software Design</h5>
+      <p class="work-dates">Apr 2019 - Sep 2019 · 6 mos</p>
+      <p class="work-place">Washington D.C. Metro Area</p>
+      <ul class="work-description">
+        <li>
+          Acting as the subject matter expert for React, Redux, and JavaScript
+          architecture practices to create reusable and sustainable code
+        </li>
+        <li>
+          Developing interfaces for the Navy to upload, analyze, and view large
+          scale data to make more informed financial decisions
+        </li>
+        <li>
+          Optimizing 3d interfaces, presentation features, and advanced calendar
+          integrations for input in future projects on legacy computer systems
+        </li>
+      </ul>
+      <a
+        class="button work-button"
+        target="_blank"
+        href="https://www.synergy360.co/shipyard-industrial-space.html"
+      >
+        See Shipyard Industrial Space
+      </a>
+    </div>
+  </div>
+</div>
+<div class="work">
+  <h1 class="title">Fun Projects</h1>
+  <div class="project-grid">
+    <div class="project row">
+      <div class="project-text-div col-md-8">
+        <p class="project-name">{{ projects[0].name }}</p>
+        <p class="descript-text description">{{ projects[0].description }}</p>
+        <p class="descript-text">
+          <span class="subtitle">Implements:</span> <br />
+          {{ projects[0].technologies }}
+        </p>
+
+        <div class="button-div">
+          <a class="button" target="_blank" href="{{ projects[0].url }}">
+            Open Project
+          </a>
+
+          <a class="button" target="_blank" href="{{projects[0].githubRepo}">
+            See Github Repo
+          </a>
+        </div>
+      </div>
+      <div class="w3-content w3-section col-md-4 slideshow">
+        <img class="mySlides" src="assets/Hustler1.png" />
+        <img class="mySlides" src="assets/Hustler2.png" />
+        <img class="mySlides" src="assets/Hustler3.png" />
+      </div>
+    </div>
+
+    <div class="project row">
+      <div class="project-text-div col-md-8">
+        <p class="project-name">{{ projects[1].name }}</p>
+        <p class="descript-text description">{{ projects[1].description }}</p>
+        <p class="descript-text">
+          <span class="subtitle">Implements:</span> <br />
+          {{ projects[1].technologies }}
+        </p>
+
+        <div class="button-div">
+          <a class="button" target="_blank" href="{{ projects[1].url }}">
+            Open Project
+          </a>
+
+          <a class="button" target="_blank" href="{{projects[1].githubRepo}">
+            See Github Repo
+          </a>
+        </div>
+      </div>
+      <div class="w3-content w3-section col-md-4 slideshow">
+        <img class="mySlides1" src="assets/Cookbook1.png" />
+        <img class="mySlides1" src="assets/Cookbook2.png" />
+        <img class="mySlides1" src="assets/Cookbook3.png" />
+      </div>
+    </div>
+    <div class="project row">
+      <div class="project-text-div col-md-8">
+        <p class="project-name">{{ projects[2].name }}</p>
+        <p class="descript-text description">{{ projects[2].description }}</p>
+        <p class="descript-text">
+          <span class="subtitle">Implements:</span> <br />
+          {{ projects[2].technologies }}
+        </p>
+
+        <div class="button-div">
+          <a class="button" target="_blank" href="{{ projects[2].url }}">
+            Open Project
+          </a>
+
+          <a class="button" target="_blank" href="{{projects[2].githubRepo}">
+            See Github Repo
+          </a>
+        </div>
+      </div>
+      <div class="w3-content w3-section col-md-4 slideshow">
+        <img class="mySlides2" src="assets/Git1.png" />
+      </div>
+    </div>
+    <div class="project row">
+      <div class="project-text-div col-md-8">
+        <p class="project-name">{{ projects[3].name }}</p>
+        <p class="descript-text description">{{ projects[3].description }}</p>
+        <p class="descript-text">
+          <span class="subtitle">Implements:</span> <br />
+          {{ projects[3].technologies }}
+        </p>
+
+        <div class="button-div">
+          <a class="button" target="_blank" href="{{ projects[3].url }}">
+            Open Project
+          </a>
+
+          <a class="button" target="_blank" href="{{projects[3].githubRepo}">
+            See Github Repo
+          </a>
+        </div>
+      </div>
+      <div class="w3-content w3-section col-md-4 slideshow">
+        <img class="mySlides3" src="assets/Leg2.png" />
+        <img class="mySlides3" src="assets/Leg3.png" />
+        <img class="mySlides3" src="assets/Leg4.png" />
+      </div>
+    </div>
+  </div>
+</div>
